@@ -70,12 +70,6 @@ void ws(int n){
     }
 }
 
-void right(int n) {
-	while (n--) {
-		x++;
-		walk();
-	}
-}
 
 int main() {
 	walk();
